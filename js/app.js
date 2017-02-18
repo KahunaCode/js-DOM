@@ -51,7 +51,9 @@ aliasBox.appendChild(divGrimmace);
 //Final Boss
 /*8. Create your own profile.*/
 var devs = document.getElementsByClassName("block3 col-sm-4");
-console.log(devs[2]);
+//console.log(devs[2].getElementsByClassName("img"))
+myJpic.src = "http://vignette3.wikia.nocookie.net/superman/images/b/bc/Superman-injusticegodsamongus.png/revision/latest?cb=20130620230723"
+
 var jName = document.createElement("div");
 jName.id = "name10";
 jName.innerHTML = "James Moore";
