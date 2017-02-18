@@ -32,15 +32,23 @@ profiles[2].innerHTML = "lorem fkyouem hard"
 /*6. Create a div element for Chuck Norris and give it an id of "name7". Inside this div element, give it the contents of "Chuck Norris".
 
 Append this div element to the nameBox div*/
-
+var divElement = document.createElement("div");
+divElement.id = "name7";
+divElement.innerHTML = "Chuck Norris";
+nameBox.appendChild(divElement);
  
 
 /*7. Create a div element for Grimmace and give it an id of "alias8". Inside this div element, give it the contents of "The Purple Monster".
 
 Append this div element to the aliasBox div.*/
-
+var divGrimmace = document.createElement("div");
+divGrimmace.id = "alias8";
+divGrimmace.innerHTML = "The Purple Monster";
+aliasBox.appendChild(divGrimmace);
 
 
 
 //Final Boss
 /*8. Create your own profile.*/
+var devs = document.getElementsByClassName("block3 col-sm-4");
+conosle.log(devs);
