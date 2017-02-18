@@ -51,4 +51,20 @@ aliasBox.appendChild(divGrimmace);
 //Final Boss
 /*8. Create your own profile.*/
 var devs = document.getElementsByClassName("block3 col-sm-4");
-conosle.log(devs);
+console.log(devs[2]);
+var jName = document.createElement("div");
+jName.id = "name10";
+jName.innerHTML = "James Moore";
+devs[2].appendChild(jName);
+var jPosition = document.createElement("div");
+jPosition.id = "position10";
+jPosition.innerHTML = "super Dev";
+devs[2].appendChild(jPosition);
+var jAlias = document.createElement("div");
+jAlias.id = "alias10";
+jAlias.innerHTML = "just james";
+devs[2].appendChild(jAlias);
+var jBio = document.createElement("div");
+jBio.id = "bio10";
+jBio.innerHTML = "python is cool but there are better ways to make webpages and therefore... i.js"
+devs[2].appendChild(jBio);
